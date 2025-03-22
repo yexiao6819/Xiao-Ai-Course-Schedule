@@ -15,9 +15,9 @@ async function scheduleTimer({
   const startSemester = Date.now().toString();  // 使用当前时间戳作为开学时间戳
   const startWithSunday = false;  // 默认不以周日为起始日
   const showWeekend = false;  // 默认不显示周末
-  const forenoon = 4;  // 假设上午有4节课
-  const afternoon = 4;  // 假设下午有4节课
-  const night = 2;  // 假设晚上有2节课
+  const forenoon = 4;  
+  const afternoon = 4; 
+  const night = 2;  
 
   // 定义作息时间表（节次与时间）
   const sections = [
